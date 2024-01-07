@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:src="@drawable/androidOne" />
+        app:src="@drawable/androidone" />
 
     <ImageView
         android:id="@+id/pokemonNum2"
@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:src="@drawable/pokemonTwo" />
+        app:src="@drawable/pokemontwo" />
 
     <ImageView
         android:id="@+id/minionsNum3"
@@ -57,5 +57,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:src="@drawable/minionsThree" />
+        app:src="@drawable/minionsthree" />
 </androidx.constraintlayout.widget.ConstraintLayout>
