@@ -28,22 +28,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_background" />
+
     <ImageView
         android:id="@+id/androidNum1"
         android:layout_width="300dp"
         android:layout_height="150dp"
-        app:src="@drawable/androidNum1"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:src="@drawable/androidOne" />
+
     <ImageView
         android:id="@+id/pokemonNum2"
         android:layout_width="300dp"
         android:layout_height="150dp"
-        app:src="@drawable/pokemonNum2"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:src="@drawable/pokemonTwo" />
+
     <ImageView
         android:id="@+id/minionsNum3"
         android:layout_width="300dp"
         android:layout_height="150dp"
-        app:src="@drawable/minionsNum3"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:src="@drawable/minionsThree" />
 </androidx.constraintlayout.widget.ConstraintLayout>
